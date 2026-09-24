@@ -21,7 +21,7 @@ describe('loadingReducer', () => {
       payload: { key: 'threads' },
     });
 
-    expect(nextState).toEqual({ threads: false });
+    expect(nextState).toEqual({ threads: true });
   });
 
   it('should set the given key to false when given by HIDE_LOADING action', () => {
